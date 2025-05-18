@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:todo_clean_bloc/domain/repository/todo_repo.dart';
-import '../../domain/models/todo.dart';
+import 'package:todo_clean_bloc/domain/usecases/todo_repo.dart';
+import '../../domain/entities/todo.dart';
 import '../models/todo_model.dart';
 
 class TodoRepositoryImpl implements TodoRepo {

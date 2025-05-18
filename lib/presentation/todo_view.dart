@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todo_clean_bloc/domain/models/todo.dart';
+import 'package:todo_clean_bloc/domain/entities/todo.dart';
 import 'package:todo_clean_bloc/presentation/todo_cubit.dart';
 
 class TodoView extends StatelessWidget {
